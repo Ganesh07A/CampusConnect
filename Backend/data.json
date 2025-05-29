@@ -1,0 +1,124 @@
+{
+  "events": [
+    {
+      "id": "techfest2025",
+      "title": "TechFest 2025",
+      "date": "20-06-2025 - 22-06-2025",
+      "time": "10:00 AM - 6:00 PM",
+      "location": "College Campus Opentheatre",
+      "description": "An inter-departmental tech competition featuring coding, robotics, and hackathons.",
+      "category": "Technical",
+      "speaker": "Various Department Heads"
+    },
+    {
+      "id": "entrepworkshop2025",
+      "title": "Entrepreneurship Workshop",
+      "date": "16-07-2025",
+      "time": "12:00 PM - 01:00 PM",
+      "location": "Main Auditorium",
+      "description": "Learn how to pitch your startup ideas from industry experts.",
+      "category": "Workshop",
+      "speaker": "Industry Experts"
+    },
+    {
+      "id": "codingcomp2025",
+      "title": "Coding competition",
+      "date": "31-05-2025",
+      "description": "Coding competition for all students to showcase their programming skills.",
+      "time": "10:00 AM - 12:00 PM",
+      "location": "123 Computer Lab",
+      "link": "https://example.com/coding-competition",
+      "category": "Technical",
+      "speaker": "CS Department Faculty"
+    },
+    {
+      "id": "guestlecselfdev2025",
+      "title": "Guest Lecture: Self Development",
+      "date": "23-06-2025",
+      "time": "3:00 PM - 5:00 PM",
+      "location": "Room 008, Mechanical Block",
+      "speaker": "Mr. Aman Dattawal",
+      "description": "A guest lecture by Mr. Aman Dattawal on Self Development in today's world.",
+      "category": "Workshop"
+    }
+  ],
+  "news": [
+    {
+      "title": "New Research Lab Inaugurated",
+      "date": "4-05-2025",
+      "content": "The Computer Science Department inaugurated a new AI Research Lab with advanced computing resources."
+    },
+    {
+      "title": "Library Open 24x7 During Exams",
+      "date": "30-05-2025",
+      "content": "Students can access the library round the clock during the semester exam period."
+    }
+  ],
+  "papers": [
+    {
+      "subject": "Degital Logic Design and Microprocessors",
+      "type": "Endsem",
+      "year": "2020 - 2024",
+      "file": "DLDM.pdf"
+    },
+    {
+      "subject": "Design & Analysis of Algorithms",
+      "type": "Endsem",
+      "year": "2022",
+      "file": "DAA_supp_2022.pdf"
+    },
+    { 
+      "subject": "Operating Systems",
+      "type": "Endsem",   
+      "year": "2019 - 2024",
+      "file": "OS.pdf"
+    }
+  ],
+  
+  "council": [
+    {
+      "name": "Anjali Sharma",
+      "role": "President",
+      "phone": "9876543210"
+    },
+    {
+      "name": "Rahul Verma",
+      "role": "Vice President",
+      "phone": "8765432109"
+    },
+    {
+      "name": "Priya Singh",
+      "role": "Secretary",
+      "phone": "7654321098"
+    },
+    {
+      "name": "Rohit Kumar",
+      "role": "Cultural Head",
+      "phone": "6543210987"
+    }
+  ],
+  "hiring": 
+  [
+    {
+      "company": "Tata Consultancy Services",
+      "position": "Software Engineer",
+      "date": "23-06-2025",
+      "location": "Remote",
+      "description": "Seeking innovative software engineers to join our dynamic team. Apply now!"
+    },
+    {
+      "company": "Wipro",
+      "position": "Data Analyst",
+      "date": "10-06-2025",
+      "location": "On-site",
+      "description": "Looking for data analysts with a passion for sustainability. Join us to make an impact!"
+    },
+    {
+      "company": "Infosys",
+      "position": "Systems Engineer",
+      "date": "12-6-2025",
+      "location": "Remote",
+      "description": "Join Infosys as a Systems Engineer and be part of our innovative projects. Apply today!"
+    }
+  ]
+}
