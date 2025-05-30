@@ -212,10 +212,23 @@ main {
   display: block;
 }
 
-.register-btn
+
 .apply-btn {
-  width: 100%;
+  display: inline-block;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 0.9rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.register-btn {
+  width: 100%;
+  background-color: #667eea;
   color: white;
   border: none;
   padding: 0.9rem;
@@ -229,6 +242,7 @@ main {
 .register-btn:hover {
   opacity: 0.9;
   transform: scale(1.02);
+  
 }
 
 /* Filters styling */

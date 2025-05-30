@@ -52,6 +52,27 @@
       "title": "Library Open 24x7 During Exams",
       "date": "30-05-2025",
       "content": "Students can access the library round the clock during the semester exam period."
+    },
+    {
+      "title": "Alumni Meet Scheduled",
+      "date": "15-05-2025",
+      "content": "An alumni meet is scheduled for 30th June 2025 to reconnect with former students and share experiences."
+    },
+    {
+      "title": "New Sports Complex Opened",
+      "date": "4-04-2025",
+      "content": "A new sports complex has been opened to promote physical fitness and sports activities among students."
+    },
+    {
+      "title": "New Course on AI and Machine Learning",
+      "date": "26-05-2025",
+      "content": "A new elective course on AI and Machine Learning will be offered from the next semester."
+    },
+    {
+      "title": "Tree Plantation Drive",
+      "date": "10-05-2025",
+      "content": "A tree plantation drive will be held on campus to promote environmental sustainability."
+      
     }
   ],
   "papers": [
@@ -119,6 +140,20 @@
       "date": "12-6-2025",
       "location": "Remote",
       "description": "Join Infosys as a Systems Engineer and be part of our innovative projects. Apply today!"
+    },
+    {
+      "company": "Accenture",
+      "position": "Business Analyst",
+      "date": "15-06-2025",
+      "location": "On-site",
+      "description": "Accenture is hiring Business Analysts to drive business transformation. Apply now!"
+    },
+    {
+      "company": "HCL Technologies",
+      "position": "Network Engineer",
+      "date": "20-06-2025",
+      "location": "Remote",
+      "description": "HCL is looking for Network Engineers to enhance our IT infrastructure. Join us!"
     }
   ]
 }
