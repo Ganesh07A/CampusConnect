@@ -1,143 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>College Event Portal</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <h2>Campus Connect</h2>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#dashboard">Dashboard</a></li>
-                <li><a href="#events">Events</a></li>
-                <li><a href="#academics">Academics</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#hiring">Hiring</a></li>
-                <li><a href="#council">Student Council</a></li>
-                <li><a href="#feedback">Feedback</a></li>
-            </ul>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Campus Connect</h2>
         </div>
+        <ul class="nav-menu">
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#academics">Academics</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#hiring">Hiring</a></li>
+          <li><a href="#council">Student Council</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+      </div>
     </nav>
 
     <main>
-        <section id="dashboard" class="section active">
-            <div class="hero">
-                <h1>Welcome to CollegeHub</h1>
-                <p>Your one-stop portal for college events, academics, and campus life</p>
-            </div>
-            <h2>Quick Overview</h2>
-            <div class="quick-links">
-                <div class="link-card" onclick="showSection('events')">
-                    <h3>Upcoming Events</h3>
-                </div>
-                <div class="link-card" onclick="showSection('news')">
-                    <h3>Latest News</h3>
-                </div>
-                 <div class="link-card" onclick="showSection('academics')">
-                    <h3>Academics Info</h3>
-                </div>
-            </div>
-            <h2>Featured Events</h2>
-            <div id="events-container" class="events-grid">
-                <p>Loading events...</p>
-            </div>
-        </section>
+      <section id="dashboard" class="section active">
+        <div class="hero">
+          <h1>Welcome to CollegeHub</h1>
+          <p>
+            Your one-stop portal for college events, academics, and campus life
+          </p>
+        </div>
+        <h2>Quick Overview</h2>
+        <div class="quick-links">
+          <div class="link-card" onclick="showSection('events')">
+            <h3>Upcoming Events</h3>
+          </div>
+          <div class="link-card" onclick="showSection('news')">
+            <h3>Latest News</h3>
+          </div>
+          <div class="link-card" onclick="showSection('academics')">
+            <h3>Academics Info</h3>
+          </div>
+        </div>
+        <h2>Featured Events</h2>
+        <div id="events-container" class="events-grid">
+          <p>Loading events...</p>
+        </div>
+      </section>
 
-        <section id="events" class="section">
-            <h2>College Events</h2>
-            <div class="filters">
-                <label for="category-filter">Filter by Category:</label>
-                <select id="category-filter">
-                    <option value="all">All Categories</option>
-                    <option value="workshop">Workshops</option>
-                    <option value="cultural">Cultural</option>
-                    <option value="technical">Technical</option>
-                </select>
-            </div>
-            <div id="all-events" class="events-grid">
-                <p>Loading events...</p>
-            </div>
-        </section>
+      <section id="events" class="section">
+        <h2>College Events</h2>
+        <div class="filters">
+          <label for="category-filter">Filter by Category:</label>
+          <select id="category-filter">
+            <option value="all">All Categories</option>
+            <option value="workshop">Workshops</option>
+            <option value="cultural">Cultural</option>
+            <option value="technical">Technical</option>
+          </select>
+        </div>
+        <div id="all-events" class="events-grid">
+          <p>Loading events...</p>
+        </div>
+      </section>
 
-        <section id="academics" class="section">
-            <h2>Academic Resources</h2>
-            <p>Find previous year question papers and other academic materials.</p>
-            <div class="filters">
-                <label for="year-level-filter">Filter by Student Year Level:</label>
-                <select id="year-level-filter">
-                    <option value="all">All Years</option>
-                    <option value="1">1st Year</option>
-                    <option value="2">2nd Year</option>
-                    <option value="3">3rd Year</option>
-                    <option value="4">4th Year</option>
-                </select>
-            </div>
-            <div id="papers-container" class="papers-grid">
-                <p>Loading papers...</p>
-            </div>
-        </section>
+      <section id="academics" class="section">
+        <h2>Academic Resources</h2>
+        <p>Find previous year question papers and other academic materials.</p>
+        <div class="filters">
+          <label for="year-level-filter">Filter by Student Year Level:</label>
+          <select id="year-level-filter">
+            <option value="all">All Years</option>
+            <option value="1">1st Year</option>
+            <option value="2">2nd Year</option>
+            <option value="3">3rd Year</option>
+            <option value="4">4th Year</option>
+          </select>
+        </div>
+        <div id="papers-container" class="papers-grid">
+          <p>Loading papers...</p>
+        </div>
+      </section>
 
-        <section id="news" class="section">
-            <h2>Latest News</h2>
-            <div id="news-container" class="news-grid">
-                <p>Loading news...</p>
-            </div>
-        </section>
+      <section id="news" class="section">
+        <h2>Latest News</h2>
+        <div id="news-container" class="news-grid">
+          <p>Loading news...</p>
+        </div>
+      </section>
 
-        <section id="hiring" class="section">
-            <h2>Hiring & Internships</h2>
-            <p>Find job opportunities and internship listings from top companies.</p>
-            <div id="hiring-container" class="hiring-grid">
-                <p>Loading job opportunities...</p>
-            </div>
-        </section>  
+      <section id="hiring" class="section">
+        <h2>Hiring & Internships</h2>
+        <p>
+          Find job opportunities and internship listings from top companies.
+        </p>
+        <div id="hiring-container" class="hiring-grid">
+          <p>Loading job opportunities...</p>
+        </div>
+      </section>
 
-        <section id="council" class="section">
-            <h2>Student Council</h2>
-            <p>Meet your student representatives and get in touch with them for any queries or suggestions.</p>
-            <div id="council-container" class="council-grid">
-                <p>hfsnlsvlslkv</p>
-                <p>Loading council information...</p>
-            </div>
-        </section>
+      <section id="council" class="section">
+        <h2>Student Council</h2>
+        <p>
+          Meet your student representatives and get in touch with them for any
+          queries or suggestions.
+        </p>
+        <div id="council-container" class="council-grid">
+          <p>hfsnlsvlslkv</p>
+          <p>Loading council information...</p>
+        </div>
+      </section>
 
-        <section id="feedback" class="section">
-            <h2>Feedback</h2>
-            <p>We value your input. Please use the form below to send us your feedback, suggestions, or report any issues.</p>
-            <form id="feedbackForm" class="feedback-form">
-                <div class="form-group">
-                    <label for="feedbackName">Your Name (Optional):</label>
-                    <input type="text" id="feedbackName" name="feedbackName">
-                </div>
-                <div class="form-group">
-                    <label for="feedbackEmail">Your Email (Optional):</label>
-                    <input type="email" id="feedbackEmail" name="feedbackEmail">
-                </div>
-                <div class="form-group">
-                    <label for="feedbackType">Type of Feedback:</label>
-                    <select id="feedbackType" name="feedbackType" required>
-                        <option value="suggestion">Suggestion</option>
-                        <option value="complaint">Complaint</option>
-                        <option value="compliment">Compliment</option>
-                        <option value="bug_report">Bug Report</option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="feedbackMessage">Message:</label>
-                    <textarea id="feedbackMessage" name="feedbackMessage" rows="6" required placeholder="Please share your feedback here..."></textarea>
-                </div>
-                <button type="submit" class="submit-btn">Submit Feedback</button>
-            </form>
-        </section>
+      <section id="feedback" class="section">
+        <h2>Feedback</h2>
+        <p>
+          We value your input. Please use the form below to send us your
+          feedback, suggestions, or report any issues.
+        </p>
+        <form id="feedbackForm" class="feedback-form">
+          <div class="form-group">
+            <label for="feedbackName">Your Name (Optional):</label>
+            <input type="text" id="feedbackName" name="feedbackName" />
+          </div>
+          <div class="form-group">
+            <label for="feedbackEmail">Your Email (Optional):</label>
+            <input type="email" id="feedbackEmail" name="feedbackEmail" />
+          </div>
+          <div class="form-group">
+            <label for="feedbackType">Type of Feedback:</label>
+            <select id="feedbackType" name="feedbackType" required>
+              <option value="suggestion">Suggestion</option>
+              <option value="complaint">Complaint</option>
+              <option value="compliment">Compliment</option>
+              <option value="bug_report">Bug Report</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="feedbackMessage">Message:</label>
+            <textarea
+              id="feedbackMessage"
+              name="feedbackMessage"
+              rows="6"
+              required
+              placeholder="Please share your feedback here..."
+            ></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit Feedback</button>
+        </form>
+      </section>
     </main>
-    
+
     <script src="script.js"></script>
-</body>
-<footer id="footer-bar">Stay connected to college</footer>
+  </body>
+  <footer id="footer-bar">Stay connected to college</footer>
 </html>
